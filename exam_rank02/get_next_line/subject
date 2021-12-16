@@ -7,6 +7,8 @@ Ecrivez une fonction qui stocke, dans le paramètre "line", une ligne lue depuis
 
 La fonction sera prototypée comme suit : int get_next_line(char **line);
 
+********** NEW PROTO : char *get_next_line(int fd) ***************
+
 Votre fonction ne doit pas faire de fuite mémoire.
 
 Ce que nous appelons une "ligne lue" est une succession de 0 à n caractères qui se termine par un '\n' (code ascii 0x0a) ou une Fin De Fichier (EOF).
